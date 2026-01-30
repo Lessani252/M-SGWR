@@ -16,9 +16,9 @@ u = df[df.columns[0]].values
 v = df[df.columns[1]].values                   
 
 ## If you decide to standardize your data prior to model calibration
-# scaler = StandardScaler()
-# g_x = scaler.fit_transform(g_x)
-# g_y = scaler.fit_transform(g_y)
+scaler = StandardScaler()
+g_x = scaler.fit_transform(g_x)
+g_y = scaler.fit_transform(g_y)
 
 g_coords = list(zip(u, v))
 
@@ -48,4 +48,5 @@ msgwr_res.params # local coef estimate along with the intercept
 enp_list = msgwr_res.ENP_j # ENP per predictor
 enp_model = msgwr_res.ENP  # Overall ENP of the model
 std_error = msgwr_res.bse  # std error of parameters
+
 t_value = msgwr_res.filter_tvals()  # t-value of estimated parameters
