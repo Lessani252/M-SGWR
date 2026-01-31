@@ -11,7 +11,7 @@ In the current version, you first need to copy and paste all these python files 
 - (3) bw_optimization.py, and
 - (4) main_class.py.  
 
-Parameter extraction when running in the serial mode:
+Parameter Extraction 
 -----------------------------------------------------
 - msgwr_res.R2
 - msgwr_res.adj_R2
@@ -33,7 +33,7 @@ Input data must be a CSV file with the following column order:
 
 ![data format](https://github.com/user-attachments/assets/e5e6547d-5eb0-444a-a9be-8b315cbf9997)
 
-Categorical variables
+Categorical Variables
 ---------------------
 Categorical variables must be pre-processed into dummy variables.
 Example: For a 3-class variable ("urban", "peri-urban", "rural"), create:
