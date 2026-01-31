@@ -21,7 +21,7 @@ Parameter Extraction
 - msgwr_res.bse
 - msgwr_res.localR2
 - msgwr_res.filter_tvals()
-- msgwr_res.filter_tvals(alpha=0.05) ### t values with 95% confidence interval
+- msgwr_res.filter_tvals(alpha=0.05) >>> t values with 95% confidence interval
 - msgwr_res.summary()
   
 Data Format 
