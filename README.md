@@ -1,7 +1,7 @@
 Citation
 --------------------
-This repository belongs to the M-SGWR local regression model, and the full preprint article can be found through this DOI:  https://doi.org/10.48550/arXiv.2601.19888
-If you use this model for your research, please cite the most updated version of the article.
+This repository belongs to the M-SGWR local regression model, and the full preprint article can be found through this DOI:  https://doi.org/10.48550/arXiv.2601.19888.
+For citation, please cite the most updated version of the article.
 
 M-SGWR Implementaion
 ---------------------
