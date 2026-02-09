@@ -1,6 +1,6 @@
 Datasets
 --------------------
-Both simulation datasets are included in the Data folder. Predictor values are provided in the CSV files, while the true coefficients are stored as attributes in the accompanying shapefiles. Note that all data were standardized during the data-generating process.
+Both simulation datasets are included in the Data.zip folder. Predictor values are provided in the CSV files, while the true coefficients are stored as attributes in the accompanying shapefiles. Note that all data were standardized during the data-generating process.
 
 Citation
 --------------------
