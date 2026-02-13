@@ -63,3 +63,6 @@ Unlike the original SGWR model (https://doi.org/10.1080/13658816.2024.2342319), 
 Overall, M-SGWR offers a flexible and interpretable framework for modeling complex spatial processes, making it particularly well suited for applications where spatial relationships are influenced by both geography and contextual similarity, such as social, environmental, and public health studies. Note: When all predictors exhibit purely geographic behavior (i.e., their optimal mixing parameters converge to one), the M-SGWR model naturally reduces to the MGWR model. In this case, attribute similarity has no influence on the weighting process, and M-SGWR becomes equivalent to MGWR without requiring any additional assumptions or constraints.
 
 ![comparison](https://github.com/user-attachments/assets/273e78a2-b9a1-48ad-83bd-4168412822d2)
+
+![correlationi](https://github.com/user-attachments/assets/44ab2c8a-6db5-4a81-9c93-c2cfc8803a18)
+
