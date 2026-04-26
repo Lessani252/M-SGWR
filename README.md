@@ -2,6 +2,8 @@ Datasets
 --------------------
 Both simulation datasets are included in the Data.zip folder. Predictor values are provided in the CSV files, while the true coefficients are stored as attributes in the accompanying shapefiles. Note that all data were standardized during the data-generating process; so, you don't need to standardize them again before running the model. 
 
+For the COVID-19 dataset, please standardize the variables before model calibration to reproduce the results reported in the M-SGWR paper. 
+
 Please note that any use of the datasets shared here in your own research should be accompanied by proper citation of the M-SGWR paper.
 
 Citation
