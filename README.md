@@ -2,6 +2,8 @@ Datasets
 --------------------
 Both simulation datasets are included in the Data.zip folder. Predictor values are provided in the CSV files, while the true coefficients are stored as attributes in the accompanying shapefiles. Note that all data were standardized during the data-generating process; so, you don't need to standardize them again before running the model. 
 
+Please note that any use of the datasets shared here in your own research should be accompanied by proper citation of the M-SGWR paper.
+
 Citation
 --------------------
 This repository belongs to the M-SGWR local regression model, and the full preprint article can be found through this DOI:  https://doi.org/10.48550/arXiv.2601.19888.
