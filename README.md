@@ -4,7 +4,7 @@ Both simulation datasets are included in the Data.zip folder. Predictor values a
 
 For the COVID-19 dataset, please standardize the variables before model calibration to reproduce the results reported in the M-SGWR paper. 
 
-Please note that any use of the datasets shared here in your own research should be accompanied by proper citation of the M-SGWR paper.
+Please note that any use of the datasets shared here in your own research should be accompanied by proper citation of the M-SGWR paper. Thank you!
 
 Citation
 --------------------
