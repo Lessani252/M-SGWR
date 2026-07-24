@@ -13,11 +13,7 @@ For citation, please cite the most updated version of the article.
 
 M-SGWR Implementaion
 ---------------------
-In the current version, you first need to copy and paste all these python files in your jupyter notebook or any other environment that you work. Then use the 'call_function.py' for executing the model but make sure you have other python files in your environment first in this order: 
-- (1) BW_alpha_optimization.py
-- (2) Diagnostics.py
-- (3) bw_optimization.py, and
-- (4) main_class.py.  
+Please clone the following files into your working environment: `BW_alpha_optimization.py`, `Diagnostics.py`, `bw_optimization.py`, `main_class.py`, and `call_function.py`. In `call_function.py`, update the data directory to point to your local dataset. After that, the code should be ready to run. If you encounter any issues, please post them in the repository’s Issues section.
 
 Parameter Extraction 
 -----------------------------------------------------
