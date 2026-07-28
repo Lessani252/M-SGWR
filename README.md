@@ -13,7 +13,7 @@ For citation, please cite the most updated version of the article.
 
 M-SGWR Implementaion
 ---------------------
-Please download "SGWR_Model_WINDOWS_0.3_setup.exe" from the above and then follow the installation steps. Once it's installed, you should be able to run SGWR, M-SGWR, GWR, and MGWR models in the GUI too. 
+Please download "SGWR_Model_WINDOWS_0.3_setup.exe" from the above and then follow the installation steps. Once it's installed, you should be able to run SGWR, M-SGWR, GWR, and MGWR models in the GUI tool. 
 
 <img width="766" height="522" alt="M-SGWR Model" src="https://github.com/user-attachments/assets/38f561a6-8e40-463e-a077-65be931a3406" />
 
