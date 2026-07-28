@@ -13,7 +13,11 @@ For citation, please cite the most updated version of the article.
 
 M-SGWR Implementaion
 ---------------------
-Please clone the following files into your working environment: `BW_alpha_optimization.py`, `Diagnostics.py`, `bw_optimization.py`, `main_class.py`, and `call_function.py`. In `call_function.py`, update the data directory to point to your local dataset. After that, the code should be ready to run. If you encounter any issues, please post them in the repository’s Issues section.
+Please download "SGWR_Model_WINDOWS_0.3_setup.exe" from the above and then follow the installation steps. Once it's installed, you should be able to run SGWR, M-SGWR, GWR, and MGWR models in the GUI too. 
+
+<img width="766" height="522" alt="M-SGWR Model" src="https://github.com/user-attachments/assets/38f561a6-8e40-463e-a077-65be931a3406" />
+
+Or Please clone the following files into your working environment: `BW_alpha_optimization.py`, `Diagnostics.py`, `bw_optimization.py`, `main_class.py`, and `call_function.py`. In `call_function.py`, update the data directory to point to your local dataset. After that, the code should be ready to run. If you encounter any issues, please post them in the repository’s Issues section.
 
 Parameter Extraction 
 -----------------------------------------------------
