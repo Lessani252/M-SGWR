@@ -556,60 +556,31 @@ class MSGWR(SGWR):
         weights = 0
 
         if np.allclose(np.asarray(self.alpha_history[-1]), 1.0): 
-            for iter_i in range(self.bws_history.shape[0]): 
+        for iter_i in range(self.bws_history.shape[0]): 
                 for j in range(k):
-                    pRj_old = pR[:, :, j] + err
-        
-                    Xj = self.X[:, j]
-        
-                    n_chunks_Aj = n_chunks
-        
-                    chunk_size_Aj = int(np.ceil(float(n / n_chunks_Aj)))
-                    for chunk_Aj in range(n_chunks_Aj):
-        
-                        chunk_index_Aj = np.arange(n)[chunk_Aj * chunk_size_Aj:(chunk_Aj + 1) * chunk_size_Aj]
-        
-                        pAj = np.empty((len(chunk_index_Aj), n))
-                        for i in range(len(chunk_index_Aj)):
-                            index = chunk_index_Aj[i]
-                            alpha = self.alpha_history[-1][j]
-                            wi = self._build_wi(index, self.bws_history[-1][j], alpha, j, Xj)
-                            wi = wi.reshape(-1)
-                            ###
-                            wi = wi.flatten() 
-                            xw = Xj * wi
-                            pAj[i, :] = Xj[index] / np.sum(xw * Xj) * xw
-        
-                        pR[chunk_index_Aj, :, j] = pAj.dot(pRj_old)
-                    err = pRj_old - pR[:, :, j]
-        else:
-            for j in range(k):
                 pRj_old = pR[:, :, j] + err
-    
+        
                 Xj = self.X[:, j]
-    
+        
                 n_chunks_Aj = n_chunks
-    
+        
                 chunk_size_Aj = int(np.ceil(float(n / n_chunks_Aj)))
                 for chunk_Aj in range(n_chunks_Aj):
-    
-                    chunk_index_Aj = np.arange(n)[chunk_Aj * chunk_size_Aj:(chunk_Aj + 1) * chunk_size_Aj]
-    
-                    pAj = np.empty((len(chunk_index_Aj), n))
-                    for i in range(len(chunk_index_Aj)):
+        
+                chunk_index_Aj = np.arange(n)[chunk_Aj * chunk_size_Aj:(chunk_Aj + 1) * chunk_size_Aj]
+        
+                pAj = np.empty((len(chunk_index_Aj), n))
+                for i in range(len(chunk_index_Aj)):
                         index = chunk_index_Aj[i]
-                        
                         alpha = self.alpha_history[-1][j]
                         wi = self._build_wi(index, self.bws_history[-1][j], alpha, j, Xj)
                         wi = wi.reshape(-1)
-                        ###
                         wi = wi.flatten() 
                         xw = Xj * wi
                         pAj[i, :] = Xj[index] / np.sum(xw * Xj) * xw
-    
-                    pR[chunk_index_Aj, :, j] = pAj.dot(pRj_old)
+        
+                pR[chunk_index_Aj, :, j] = pAj.dot(pRj_old)
                 err = pRj_old - pR[:, :, j]
-            
         for j in range(k):
             CCT[:, j] += ((pR[:, :, j] / self.X[:, j].reshape(-1, 1))**2).sum(axis=1)
         for i in range(len(chunk_index)):
