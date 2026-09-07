@@ -71,7 +71,7 @@ Overall, M-SGWR offers a flexible and interpretable framework for modeling compl
 
 Coefficients Comparison
 ------------------------
-Comparison between the estimated coefficients and the true coefficients based on the proposed model (M-SGWR) and MGWR model.
+An example of comparison between the estimated coefficients and the true coefficients based on the proposed model (M-SGWR) and MGWR model.
 ![comparison](https://github.com/user-attachments/assets/273e78a2-b9a1-48ad-83bd-4168412822d2)
 
 Coefficients Correlation
