@@ -9,7 +9,7 @@ Please note that any use of the datasets shared here in your own research should
 Citation
 --------------------
 This repository belongs to the M-SGWR local regression model:
-Lessani, M. N., Z. Li, M. Yu, H. Greatrex, and C. Shen. 2026. “ M-SGWR: Multiscale Attribute-Similarity and Geographically Weighted Regression.” Geographical Analysis 58, no. 4: e70058. https://doi.org/10.1111/gean.70058. 
+- Lessani, M. N., Z. Li, M. Yu, H. Greatrex, and C. Shen. 2026. “ M-SGWR: Multiscale Attribute-Similarity and Geographically Weighted Regression.” Geographical Analysis 58, no. 4: e70058. https://doi.org/10.1111/gean.70058. 
 
 M-SGWR Implementaion
 ---------------------
