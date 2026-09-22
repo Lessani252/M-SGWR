@@ -8,8 +8,7 @@ Please note that any use of the datasets shared here in your own research should
 
 Citation
 --------------------
-This repository belongs to the M-SGWR local regression model, and the full preprint article can be found through this DOI:  https://doi.org/10.48550/arXiv.2601.19888.
-For citation, please cite the most updated version of the article.
+This repository belongs to the M-SGWR local regression model, and the full article can be found through this DOI:  [https://doi.org/10.48550/arXiv.2601.19888](https://doi.org/10.1111/gean.70058).
 
 M-SGWR Implementaion
 ---------------------
